@@ -1,0 +1,64 @@
+debug/debug.c: common.h debug/debug.h debug/dtrap.h debug/dz80.h hw/emucore.h hw/files.h hw/flash.h hw/hwcore.h hw/lcd.h hw/ti82.h hw/ti83.h hw/ti83p.h hw/z80.h
+
+debug/dlcd.c: common.h debug/debug.h debug/dlcd.h hw/emucore.h hw/files.h hw/flash.h hw/hwcore.h hw/lcd.h hw/ti82.h hw/ti83.h hw/ti83p.h hw/z80.h
+
+debug/dti82.c: common.h debug/debug.h debug/dti82.h hw/emucore.h hw/files.h hw/flash.h hw/hwcore.h hw/lcd.h hw/ti82.h hw/ti83.h hw/ti83p.h hw/z80.h
+
+debug/dti83.c: common.h debug/debug.h debug/dti83.h hw/emucore.h hw/files.h hw/flash.h hw/hwcore.h hw/lcd.h hw/ti82.h hw/ti83.h hw/ti83p.h hw/z80.h
+
+debug/dti83p.c: common.h debug/debug.h debug/dti83p.h hw/emucore.h hw/files.h hw/flash.h hw/hwcore.h hw/lcd.h hw/ti82.h hw/ti83.h hw/ti83p.h hw/z80.h
+
+debug/dtrap.c: common.h debug/dtrap.h hw/emucore.h hw/z80.h
+
+debug/dz80.c: common.h hw/emucore.h hw/z80.h
+
+hw/emucore.c: common.h hw/emucore.h
+
+hw/files.c: hw/files.h
+
+hw/flash.c: common.h hw/emucore.h hw/flash.h
+
+hw/hwcore.c: common.h debug/debug.h debug/dz80.h hw/emucore.h hw/files.h hw/flash.h hw/hwcore.h hw/lcd.h hw/ti82.h hw/ti83.h hw/ti83p.h hw/z80.h
+
+hw/lcd.c: common.h hw/emucore.h hw/lcd.h
+
+hw/ti82.c: common.h debug/debug.h hw/emucore.h hw/files.h hw/flash.h hw/hwcore.h hw/lcd.h hw/ti82.h hw/ti83.h hw/ti83p.h hw/z80.h
+
+hw/ti83.c: common.h debug/debug.h hw/emucore.h hw/files.h hw/flash.h hw/hwcore.h hw/lcd.h hw/ti82.h hw/ti83.h hw/ti83p.h hw/z80.h
+
+hw/ti83p.c: common.h debug/debug.h hw/emucore.h hw/files.h hw/flash.h hw/hwcore.h hw/lcd.h hw/ti82.h hw/ti83.h hw/ti83p.h hw/z80.h
+
+hw/z80.c: common.h debug/dtrap.h hw/emucore.h hw/z80.h
+
+misc/cmd.c: common.h debug/debug.h debug/dlcd.h debug/dti82.h debug/dti83.h debug/dti83p.h debug/dz80.h hw/emucore.h hw/files.h hw/flash.h hw/hwcore.h hw/lcd.h hw/ti82.h hw/ti83.h hw/ti83p.h hw/z80.h misc/cmd.h
+
+misc/gif.c: common.h misc/gif.h
+
+win32/debug/cdisasm.c: common.h debug/debug.h debug/dlcd.h debug/dti82.h debug/dti83.h debug/dti83p.h debug/dz80.h hw/emucore.h hw/files.h hw/flash.h hw/hwcore.h hw/lcd.h hw/ti82.h hw/ti83.h hw/ti83p.h hw/z80.h win32/debug/cdisasm.h win32/debug/ckeyval.h win32/debug/clcddata.h win32/debug/clinkhis.h win32/debug/clogger.h win32/debug/cmemhex.h win32/debug/common.h win32/debug/cvat.h win32/debug/cwin.h win32/debug/cz80.h win32/debug/dtree.h win32/debug/dwin.h win32/debug/kvdata.h win32/pindurti.h win32/theme.h
+
+win32/debug/ckeyval.c: common.h debug/debug.h debug/dlcd.h debug/dti82.h debug/dti83.h debug/dti83p.h debug/dz80.h hw/emucore.h hw/files.h hw/flash.h hw/hwcore.h hw/lcd.h hw/ti82.h hw/ti83.h hw/ti83p.h hw/z80.h win32/debug/cdisasm.h win32/debug/ckeyval.h win32/debug/clcddata.h win32/debug/clinkhis.h win32/debug/clogger.h win32/debug/cmemhex.h win32/debug/common.h win32/debug/cvat.h win32/debug/cwin.h win32/debug/cz80.h win32/debug/dtree.h win32/debug/dwin.h win32/debug/kvdata.h
+
+win32/debug/clcddata.c: common.h debug/debug.h debug/dlcd.h debug/dti82.h debug/dti83.h debug/dti83p.h debug/dz80.h hw/emucore.h hw/files.h hw/flash.h hw/hwcore.h hw/lcd.h hw/ti82.h hw/ti83.h hw/ti83p.h hw/z80.h win32/debug/cdisasm.h win32/debug/ckeyval.h win32/debug/clcddata.h win32/debug/clinkhis.h win32/debug/clogger.h win32/debug/cmemhex.h win32/debug/common.h win32/debug/cvat.h win32/debug/cwin.h win32/debug/cz80.h win32/debug/dtree.h win32/debug/dwin.h win32/debug/kvdata.h win32/theme.h
+
+win32/debug/clinkhis.c: common.h debug/debug.h debug/dlcd.h debug/dti82.h debug/dti83.h debug/dti83p.h debug/dz80.h hw/emucore.h hw/files.h hw/flash.h hw/hwcore.h hw/lcd.h hw/ti82.h hw/ti83.h hw/ti83p.h hw/z80.h win32/debug/cdisasm.h win32/debug/ckeyval.h win32/debug/clcddata.h win32/debug/clinkhis.h win32/debug/clogger.h win32/debug/cmemhex.h win32/debug/common.h win32/debug/cvat.h win32/debug/cwin.h win32/debug/cz80.h win32/debug/dtree.h win32/debug/dwin.h win32/debug/kvdata.h win32/theme.h
+
+win32/debug/clogger.c: common.h debug/debug.h debug/dlcd.h debug/dti82.h debug/dti83.h debug/dti83p.h debug/dtrap.h debug/dz80.h hw/emucore.h hw/files.h hw/flash.h hw/hwcore.h hw/lcd.h hw/ti82.h hw/ti83.h hw/ti83p.h hw/z80.h win32/debug/cdisasm.h win32/debug/ckeyval.h win32/debug/clcddata.h win32/debug/clinkhis.h win32/debug/clogger.h win32/debug/cmemhex.h win32/debug/common.h win32/debug/cvat.h win32/debug/cwin.h win32/debug/cz80.h win32/debug/dtree.h win32/debug/dwin.h win32/debug/kvdata.h
+
+win32/debug/cmemhex.c: common.h debug/debug.h debug/dlcd.h debug/dti82.h debug/dti83.h debug/dti83p.h debug/dz80.h hw/emucore.h hw/files.h hw/flash.h hw/hwcore.h hw/lcd.h hw/ti82.h hw/ti83.h hw/ti83p.h hw/z80.h win32/debug/cdisasm.h win32/debug/ckeyval.h win32/debug/clcddata.h win32/debug/clinkhis.h win32/debug/clogger.h win32/debug/cmemhex.h win32/debug/common.h win32/debug/cvat.h win32/debug/cwin.h win32/debug/cz80.h win32/debug/dtree.h win32/debug/dwin.h win32/debug/kvdata.h win32/theme.h
+
+win32/debug/common.c: common.h debug/debug.h debug/dlcd.h debug/dti82.h debug/dti83.h debug/dti83p.h debug/dz80.h hw/emucore.h hw/files.h hw/flash.h hw/hwcore.h hw/lcd.h hw/ti82.h hw/ti83.h hw/ti83p.h hw/z80.h win32/debug/cdisasm.h win32/debug/ckeyval.h win32/debug/clcddata.h win32/debug/clinkhis.h win32/debug/clogger.h win32/debug/cmemhex.h win32/debug/common.h win32/debug/cvat.h win32/debug/cwin.h win32/debug/cz80.h win32/debug/dtree.h win32/debug/dwin.h win32/debug/kvdata.h win32/pindurti.h
+
+win32/debug/cvat.c: common.h debug/debug.h debug/dlcd.h debug/dti82.h debug/dti83.h debug/dti83p.h debug/dz80.h hw/emucore.h hw/files.h hw/flash.h hw/hwcore.h hw/lcd.h hw/ti82.h hw/ti83.h hw/ti83p.h hw/z80.h win32/debug/cdisasm.h win32/debug/ckeyval.h win32/debug/clcddata.h win32/debug/clinkhis.h win32/debug/clogger.h win32/debug/cmemhex.h win32/debug/common.h win32/debug/cvat.h win32/debug/cwin.h win32/debug/cz80.h win32/debug/dtree.h win32/debug/dwin.h win32/debug/kvdata.h
+
+win32/debug/cwin.c: common.h debug/debug.h debug/dlcd.h debug/dti82.h debug/dti83.h debug/dti83p.h debug/dz80.h hw/emucore.h hw/files.h hw/flash.h hw/hwcore.h hw/lcd.h hw/ti82.h hw/ti83.h hw/ti83p.h hw/z80.h win32/debug/cdisasm.h win32/debug/ckeyval.h win32/debug/clcddata.h win32/debug/clinkhis.h win32/debug/clogger.h win32/debug/cmemhex.h win32/debug/common.h win32/debug/cvat.h win32/debug/cwin.h win32/debug/cz80.h win32/debug/dtree.h win32/debug/dwin.h win32/debug/kvdata.h win32/theme.h
+
+win32/debug/cz80.c: common.h debug/debug.h debug/dlcd.h debug/dti82.h debug/dti83.h debug/dti83p.h debug/dz80.h hw/emucore.h hw/files.h hw/flash.h hw/hwcore.h hw/lcd.h hw/ti82.h hw/ti83.h hw/ti83p.h hw/z80.h win32/debug/cdisasm.h win32/debug/ckeyval.h win32/debug/clcddata.h win32/debug/clinkhis.h win32/debug/clogger.h win32/debug/cmemhex.h win32/debug/common.h win32/debug/cvat.h win32/debug/cwin.h win32/debug/cz80.h win32/debug/dtree.h win32/debug/dwin.h win32/debug/kvdata.h
+
+win32/debug/dtree.c: common.h debug/debug.h debug/dlcd.h debug/dti82.h debug/dti83.h debug/dti83p.h debug/dz80.h hw/emucore.h hw/files.h hw/flash.h hw/hwcore.h hw/lcd.h hw/ti82.h hw/ti83.h hw/ti83p.h hw/z80.h win32/debug/cdisasm.h win32/debug/ckeyval.h win32/debug/clcddata.h win32/debug/clinkhis.h win32/debug/clogger.h win32/debug/cmemhex.h win32/debug/common.h win32/debug/cvat.h win32/debug/cwin.h win32/debug/cz80.h win32/debug/dtree.h win32/debug/dwin.h win32/debug/kvdata.h
+
+win32/debug/dwin.c: common.h debug/debug.h debug/dlcd.h debug/dti82.h debug/dti83.h debug/dti83p.h debug/dz80.h hw/emucore.h hw/files.h hw/flash.h hw/hwcore.h hw/lcd.h hw/ti82.h hw/ti83.h hw/ti83p.h hw/z80.h win32/debug/cdisasm.h win32/debug/ckeyval.h win32/debug/clcddata.h win32/debug/clinkhis.h win32/debug/clogger.h win32/debug/cmemhex.h win32/debug/common.h win32/debug/cvat.h win32/debug/cwin.h win32/debug/cz80.h win32/debug/dtree.h win32/debug/dwin.h win32/debug/kvdata.h
+
+win32/debug/kvdata.c: common.h debug/debug.h debug/dlcd.h debug/dti82.h debug/dti83.h debug/dti83p.h debug/dz80.h hw/emucore.h hw/files.h hw/flash.h hw/hwcore.h hw/lcd.h hw/ti82.h hw/ti83.h hw/ti83p.h hw/z80.h win32/debug/cdisasm.h win32/debug/ckeyval.h win32/debug/clcddata.h win32/debug/clinkhis.h win32/debug/clogger.h win32/debug/cmemhex.h win32/debug/common.h win32/debug/cvat.h win32/debug/cwin.h win32/debug/cz80.h win32/debug/dtree.h win32/debug/dwin.h win32/debug/kvdata.h
+
+win32/main.c: common.h debug/debug.h debug/dlcd.h debug/dti82.h debug/dti83.h debug/dti83p.h debug/dz80.h hw/emucore.h hw/files.h hw/flash.h hw/hwcore.h hw/lcd.h hw/ti82.h hw/ti83.h hw/ti83p.h hw/z80.h misc/cmd.h misc/gif.h win32/debug/cdisasm.h win32/debug/ckeyval.h win32/debug/clcddata.h win32/debug/clinkhis.h win32/debug/clogger.h win32/debug/cmemhex.h win32/debug/common.h win32/debug/cvat.h win32/debug/cwin.h win32/debug/cz80.h win32/debug/dtree.h win32/debug/dwin.h win32/debug/kvdata.h win32/theme.h
+

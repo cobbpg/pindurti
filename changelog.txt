@@ -1,0 +1,78 @@
+23:15 2006.12.24.
+Added pseudo instructions: pti_dump_registers, pti_printf
+UPLOADED
+16:44 2006.12.16.
+Added logger component.
+12:30 2006.12.11.
+Changed number entry to use prefixes instead of suffixes (%-binary, #-decimal, $-hexadecimal, @-octal).
+Default entry base (when no prefix given) is always the one displayed (currently hexadecimal only).
+UPLOADED
+19:52 2006.12.10.
+Added context menu to debugger.
+Fixed memory view cursor bug; it could leave the legal area after resizing the component.
+14:30 2006.11.08.
+Fixed theming to degrade gracefully.
+10:33 2006.11.05.
+Handling more tokens.
+Double clicking an item in the variable list jumps to its address in the memory view.
+0:37 2006.11.05.
+Improved variable names.
+15:00 2006.11.04.
+Screen size limit removed.
+0:37 2006.11.04.
+Switched to listview in the VAT component.
+19:46 2006.11.02.
+Preliminary theme support for XP.
+7:15 2006.10.31.
+UPLOADED
+0:22 2006.10.31.
+Link history view (only for raw linking) for calcs plugged into the hub.
+Note: breakpoints and single stepping still cannot be used with linking!
+12:21 2006.10.21.
+Pressing Enter on the memory view pane allows modifying the contents of the mapped memory.
+The resulting dialog can be used to enter a number (the following base postfixes are allowed:
+b, B, d, D, h, H, o, O; the default is base 16).
+Pressing Shift-Enter after typing the number writes a little-endian word instead of a byte.
+Writing is handled by the z80 memory writing function with all the possible side effects,
+so ROM cannot be overwritten this way.
+ALT changed to Backspace for screenshotting.
+UPLOADED
+2:15 2006.09.10.
+Fixed a component resizing bug caused by the previous fix...
+9:24 2006.08.28.
+Fixed a bug that could cause a crash when the debugger window was resized.
+UPLOADED
+21:50 2006.08.27.
+Fixed disassembly bug for "ld {b,c,d,e},(index+offset)".
+UPLOADED
+10:29 2006.08.24.
+Inactive debug window components retain their name (no more "Empty component").
+22:55 2006.08.23.
+Pressing a number (0-3) changes the slot in all the children of the selected node.
+13:15 2006.08.19.
+Pressing ALT starts smooth (25 fps) screenshotting.
+It doesn't matter whether screenshots are stopped with ALT or TAB.
+UPLOADED
+23:41 2006.08.18.
+Pressing F8 in the debugger performs a step-over now.
+UPLOADED
+12:51 2006.08.18.
+Pressing INS now offers a list of components to choose from. No layout elements yet.
+UPLOADED
+23:06 2006.08.17.
+Pressing INS in the layout editor adds a register component after the selection.
+10:36 2006.07.03.
+Pressing DEL in the layout editor removes the corresponding subtree.
+21:51 2006.07.02.
+Pressing F12 reveals the layout editor (for the time being only viewer) for the debugger.
+21:41 2006.07.01.
+INTERNAL: Reworked layout engine.
+19:04 2006.06.20.
+UPLOADED
+8:24 2006.06.14.
+Off state is marked with a darker shade.
+13:01 2006.06.04.
+Pressing R in disassembly pane sets PC to cursor.
+19:25 2006.06.03.
+Fixed frame positioning bug in the debugger.
+UPLOADED
